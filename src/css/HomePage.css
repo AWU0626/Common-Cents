@@ -1,0 +1,17 @@
+.homepage-body-header {
+  text-align: left;
+  color: #2b87ba;
+  font-size: 46px;
+  font-weight: 900;
+}
+
+.homepage-body-text {
+  text-align: left;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.img-fluid {
+  width: 90%;
+  height: auto;
+}
