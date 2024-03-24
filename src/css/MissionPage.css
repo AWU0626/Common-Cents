@@ -1,0 +1,24 @@
+h2 {
+font-family: 'Nunito', sans-serif;
+font-size: 1.5em; 
+color: black; 
+margin: 10px 0; 
+padding: 5px 0;
+font-weight: bold; 
+text-align: left; 
+}
+.history-body {
+text-align: left;
+}
+p, ul, li {
+font-size: 1em;
+line-height: 1.6;
+}
+
+ul {
+padding: 0;
+}
+
+li {
+margin-bottom: 10px;
+}

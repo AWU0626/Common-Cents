@@ -1,17 +1,24 @@
-.homepage-body-header {
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5em; 
+  color: black; 
+  margin: 10px 0; 
+  padding: 5px 0;
+  font-weight: bold; 
+  text-align: left; 
+}
+.history-body {
   text-align: left;
-  color: #2b87ba;
-  font-size: 46px;
-  font-weight: 900;
+}
+p, ul, li {
+  font-size: 1em;
+  line-height: 1.6;
 }
 
-.homepage-body-text {
-  text-align: left;
-  font-weight: 900;
-  font-size: 22px;
+ul {
+  padding: 0;
 }
 
-.img-fluid {
-  width: 90%;
-  height: auto;
+li {
+  margin-bottom: 10px;
 }

@@ -1,0 +1,33 @@
+h1 {
+font-family: 'Josefin Sans', Arial;
+font-size: 1.5em; 
+color: black; 
+margin: 10px 0; 
+padding: 5px 0;
+font-weight: bold; 
+text-align: left; 
+}
+.history-body {
+text-align: left;
+font-family: 'Josefin Sans', Arial;
+color: black; 
+
+}
+.list-names {
+    font-style: italic;
+}
+a {
+    color: "#2b87ba"
+}
+p, ul, li {
+font-size: 1em;
+line-height: 1.6;
+}
+
+ul {
+padding: 0;
+}
+
+li {
+margin-bottom: 10px;
+}
