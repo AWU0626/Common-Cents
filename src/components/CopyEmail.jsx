@@ -12,9 +12,10 @@ export default function CopyEmail(props) {
         }
     };
 
+    const titleText = props.title ?? props.email;
     return (
         // Render a link that when clicked, will copy the email to the clipboard
-        <a href="/" style={{color: '#2b87ba'}} onClick={ copyEmailToClipboard }> { props.email } </a>
+        <a href="/" style={{color: '#2b87ba'}} onClick={ copyEmailToClipboard }> { titleText } </a>
 
     );
 }
