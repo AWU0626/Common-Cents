@@ -1,0 +1,19 @@
+.body-text-blue-bold-heavy {
+  color: #2b87ba;
+  font-weight: 900;
+}
+
+.body-text-bold-heavy {
+  font-weight: 900;
+}
+
+.body-text-blue {
+  color: #2b87ba;
+  font-weight: 700;
+  font-size: large;
+}
+
+.body-text {
+  font-weight: 700;
+  font-size: large;
+}
