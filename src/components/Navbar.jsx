@@ -103,8 +103,8 @@ export default function Navbar() {
               </Link>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <Link className="dropdown-item" to="/calendar">
-                    Calender
+                  <Link className="dropdown-item" to="/event">
+                    Event Details
                   </Link>
                 </li>
                 <li>

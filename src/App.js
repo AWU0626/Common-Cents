@@ -7,7 +7,7 @@ import HistoryPage from './pages/AboutUs/HistoryPage'
 import LeadershipPage from './pages/AboutUs/LeadershipPage';
 import MissionPage from './pages/AboutUs/MissionPage';
 import PartnersPage from './pages/AboutUs/PartnersPage';
-import CalendarPage from './pages/Events/CalendarPage';
+import EventPage from './pages/Events/EventPage';
 import CoffeeChatPage from './pages/Events/CoffeeChatPage';
 import CommitteePage from './pages/JoinUs/CommitteePage';
 import GeneralBodyPage from './pages/JoinUs/GeneralBodyPage';
@@ -22,7 +22,7 @@ export default function App() {
         <Route path="leadership" element={ <LeadershipPage /> } />
         <Route path="mission" element={ <MissionPage /> } />
         <Route path="partners" element={ <PartnersPage /> } />
-        <Route path="calendar" element={ <CalendarPage /> } />
+        <Route path="event" element={ <EventPage /> } />
         <Route path="coffee_chat" element={ <CoffeeChatPage /> } />
         <Route path="committee" element={ <CommitteePage /> } />
         <Route path="gbm" element={ <GeneralBodyPage /> } />
