@@ -12,9 +12,10 @@ export default function CommitteePage() {
     const sacLink = "https://sacfunded.net/policies/club-recruitment-policies";
     const wcRecruitLink = "https://groups.wharton.upenn.edu/whcouncil/recruitment/";
     const pennClubLink = "https://pennclubs.com/club/pcc";
+    const slideUrl = "https://drive.google.com/file/d/19f_A0W5piaMWHCNhDFshg1OLxcPZK0MJ/preview";
 
     // body image
-    const groupImg = <img className="img-fluid mx-auto float-left" src={ groupImgUrl } alt="committee Group"/>;
+    const groupImg = <img style={{ width: "100%", height: "100%" }} src={ groupImgUrl } alt="committee Group"/>;
 
     return (
         <div>
@@ -49,7 +50,13 @@ export default function CommitteePage() {
                 </div>
 
                 <div className="row py-4 justify-content-center">
-                    <div id="overview" className="col-10 pb-5" style={{textAlign: 'left'}}>
+                    <p className="body-text py-2">Check out our All About CC Guide below to learn about our club and each committee!</p>
+                    <div id="slide" className="col-10 pb-4">
+                        <iframe src={ slideUrl } width="100%" height="900px" title="slide"></iframe>
+                    </div>
+
+                    
+                    <div id="overview" className="col-10 py-4" style={{textAlign: 'left'}}>
                         <h4 className="body-text-bold-heavy py-2">Ready to Apply?</h4>
                         <p className="body-text py-2">The deadline to apply to join a CC committee for Fall '23 has passed. 
                             Check back in January for our Spring recruitment cycle!
